@@ -22,7 +22,7 @@ provisioner "habitat" {
   service_type       = "systemd"
   version            = "${var.habitat_version}"
   service {
-    name      = "smartb/influx"
+    name             = "smartb/influx"
 }
 ```
 
