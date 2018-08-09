@@ -2,4 +2,4 @@
 plan_path = "/influxdb"
 
 [chronograf]
-plan_path = "habitat/plans/chronograf"
+plan_path = "/chronograf"
