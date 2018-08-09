@@ -5,11 +5,14 @@ pkg_maintainer="Blake Irvin <blake.irvin@smartb.eu>"
 pkg_deps=(
   core/coreutils
   core/go
-  core/make
   core/node
+)
+pkg_build_deps=(
+  core/gcc
+  core/git
+  core/make
   core/yarn
 )
-pkg_build_deps=(core/git)
 pkg_bin_dirs=(bin)
 pkg_svc_run="chronograf run -config $pkg_svc_config_path/chronograf.conf"
 pkg_exports=(
