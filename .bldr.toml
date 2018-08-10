@@ -3,3 +3,7 @@ plan_path = "/influxdb"
 
 [chronograf]
 plan_path = "/chronograf"
+
+[kapacitor]
+plan_path = "/kapacitor"
+
