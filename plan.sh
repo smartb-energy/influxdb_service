@@ -7,6 +7,7 @@ pkg_version="0.1.0"
 pkg_services=(
   smartb/chronograf
   smartb/influxdb
+  smartb/kapacitor
 )
 
 # try adding `pkg_deps` to allow reverse-dependency builds of this package when
