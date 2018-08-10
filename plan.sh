@@ -8,3 +8,7 @@ pkg_services=(
   smartb/chronograf
   smartb/influxdb
 )
+
+# try adding `pkg_deps` to allow reverse-dependency builds of this package when
+# `pkg_services` are updated:
+pkg_deps=$pkg_services

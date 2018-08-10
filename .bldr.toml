@@ -7,3 +7,5 @@ plan_path = "/chronograf"
 [kapacitor]
 plan_path = "/kapacitor"
 
+[influx]
+plan_path = "/"
